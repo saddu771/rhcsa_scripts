@@ -1,0 +1,13 @@
+Q1)   Set the hostname to rhcsa.example.com
+
+
+Q2)  Add the following users prasad,rohit and mayur. Create group "techincal" and add prasad in that group. user mayur should have nologin profile.
+
+
+Q3) Locate the files of user rohit and save list in /var/rohitlist
+
+
+Q4)  Configure repo with url = "http://dl.google.com/linux/chrome/rpm/stable/x86_64" and name "rhel8".
+
+
+Q5)  Allow Apache to listen on tcp port 18989 and Apache webserver should run only on 18989 port
