@@ -1,13 +1,13 @@
-Q1)   Set the hostname to rhcsa.example.com
+Q1)   In your organization you have to change the hostname of your system to rhcsa.example.com
 
 
-Q2)  Add the following users prasad,rohit and mayur. Create group "techincal" and add prasad in that group. user mayur should have nologin profile.
+Q2)  User Management.   Add a Group "administrator", Useradd Joe as member of administrator group, Useradd Charles as member of administrator group, Useradd Lara not a member of administrator group and non active login shell.
 
 
-Q3) Locate the files of user rohit and save list in /var/rohitlist
+Q3) Locate the files of user student on your system and save the list of all files in /var/studentlist
 
 
-Q4)  Configure repo with url = "http://dl.google.com/linux/chrome/rpm/stable/x86_64" and name "rhel8".
+Q4)  Configure default yum repo in your linux machine. The base url should be = "http://dl.google.com/linux/chrome/rpm/stable/x86_64" and the name of the repo should be "RHEL8".
 
 
-Q5)  Allow Apache to listen on tcp port 18989 and Apache webserver should run only on 18989 port
+Q5)  Allow Apache to listen on tcp port 18989 and Apache webserver must accessible through browser at port 18989
